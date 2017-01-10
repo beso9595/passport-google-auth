@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Google Auth</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>
+            ID:
+        </td>
+        <td>
+            <%= user.google.id %>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Token:
+        </td>
+        <td>
+            <%= user.google.token %>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Email:
+        </td>
+        <td>
+            <%= user.google.email %>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Name:
+        </td>
+        <td>
+            <%= user.google.name %>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <a href="/logout">Logout</a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

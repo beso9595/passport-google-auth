@@ -1,0 +1,19 @@
+{
+  "name": "passport_google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "mongoose": "latest",
+    "passport": "latest",
+    "passport-google-oauth": "latest"
+  }
+}
